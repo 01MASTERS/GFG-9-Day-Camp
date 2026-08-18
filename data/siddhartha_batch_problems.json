@@ -1,0 +1,3030 @@
+{
+  "dsa-what-why-and-how-siddhartha": {
+    "subcategory": "Fundamentals",
+    "track_name": "DSA - What, why and how?",
+    "track_slug": "dsa-what-why-and-how-siddhartha",
+    "problems": []
+  },
+  "analysis-of-algorithm-siddhartha": {
+    "subcategory": "Fundamentals",
+    "track_name": "Analysis of Algorithms",
+    "track_slug": "analysis-of-algorithm-siddhartha",
+    "problems": []
+  },
+  "mathematics-siddhartha": {
+    "subcategory": "Maths, Recursion and Bits",
+    "track_name": "Mathematics",
+    "track_slug": "mathematics-siddhartha",
+    "problems": [
+      {
+        "name": "total-digits4030",
+        "slug": "total-digits4030",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/total-digits4030/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "trailing-zeroes-in-factorial5134",
+        "slug": "trailing-zeroes-in-factorial5134",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "modular-multiplication",
+        "slug": "modular-multiplication",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/modular-multiplication/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "modular-multiplicative-inverse-1587115620",
+        "slug": "modular-multiplicative-inverse-1587115620",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/modular-multiplicative-inverse-1587115620/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "digits-in-factorial",
+        "slug": "digits-in-factorial",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/digits-in-factorial/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "prime-factors5052",
+        "slug": "prime-factors5052",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/prime-factors5052/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "all-divisors-of-a-number",
+        "slug": "all-divisors-of-a-number",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/all-divisors-of-a-number/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "sieve-of-eratosthenes5242",
+        "slug": "sieve-of-eratosthenes5242",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "digital-root",
+        "slug": "digital-root",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/digital-root/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-last-digit-of-ab-for-large-numbers1936",
+        "slug": "find-last-digit-of-ab-for-large-numbers1936",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-last-digit-of-ab-for-large-numbers1936/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "nine-divisors3751",
+        "slug": "nine-divisors3751",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/nine-divisors3751/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "non-attacking-black-and-white-knights",
+        "slug": "non-attacking-black-and-white-knights",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/non-attacking-black-and-white-knights/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "recursion-siddhartha": {
+    "subcategory": "Maths, Recursion and Bits",
+    "track_name": "Recursion",
+    "track_slug": "recursion-siddhartha",
+    "problems": [
+      {
+        "name": "print-n-to-1-without-loop",
+        "slug": "print-n-to-1-without-loop",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "power-using-recursion",
+        "slug": "power-using-recursion",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/power-using-recursion/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "fibonacci-using-recursion",
+        "slug": "fibonacci-using-recursion",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/fibonacci-using-recursion/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "lucky-numbers2911",
+        "slug": "lucky-numbers2911",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/lucky-numbers2911/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "tower-of-hanoi-1587115621",
+        "slug": "tower-of-hanoi-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "josephus-problem",
+        "slug": "josephus-problem",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/josephus-problem/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "bit-magic-siddhartha": {
+    "subcategory": "Maths, Recursion and Bits",
+    "track_name": "Bit Magic",
+    "track_slug": "bit-magic-siddhartha",
+    "problems": [
+      {
+        "name": "count-total-set-bits-1587115620",
+        "slug": "count-total-set-bits-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "consecutive-numbers-for-sum3132",
+        "slug": "consecutive-numbers-for-sum3132",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/consecutive-numbers-for-sum3132/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-repetitive-element-from-1-to-n-1",
+        "slug": "find-repetitive-element-from-1-to-n-1",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/find-repetitive-element-from-1-to-n-1/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-and-value-1587115620",
+        "slug": "maximum-and-value-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-and-value-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "finding-profession3834",
+        "slug": "finding-profession3834",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/finding-profession3834/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "shuffle-integers2401",
+        "slug": "shuffle-integers2401",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/shuffle-integers2401/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "gray-code-1587115620",
+        "slug": "gray-code-1587115620",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/gray-code-1587115620/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "gray-to-binary-equivalent-1587115620",
+        "slug": "gray-to-binary-equivalent-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/gray-to-binary-equivalent-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "power-set4302",
+        "slug": "power-set4302",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/power-set4302/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-xor-of-numbers-from-l-to-r",
+        "slug": "find-xor-of-numbers-from-l-to-r",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "two-numbers-with-odd-occurrences5846",
+        "slug": "two-numbers-with-odd-occurrences5846",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/two-numbers-with-odd-occurrences5846/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "array-fundamental-siddhartha": {
+    "subcategory": "Array & String",
+    "track_name": "Array Fundamental",
+    "track_slug": "array-fundamental-siddhartha",
+    "problems": [
+      {
+        "name": "array-insert-at-index",
+        "slug": "array-insert-at-index",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/array-insert-at-index/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "segregate-0s-and-1s5106",
+        "slug": "segregate-0s-and-1s5106",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "buildings-receiving-sunlight3032",
+        "slug": "buildings-receiving-sunlight3032",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/buildings-receiving-sunlight3032/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "split-an-array-into-two-equal-sum-subarrays",
+        "slug": "split-an-array-into-two-equal-sum-subarrays",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/split-an-array-into-two-equal-sum-subarrays/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-subarray-of-evens-and-odds",
+        "slug": "longest-subarray-of-evens-and-odds",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-subarray-of-evens-and-odds/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-increasing-subarrays5301",
+        "slug": "count-increasing-subarrays5301",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/count-increasing-subarrays5301/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rotate-array-by-n-elements-1587115621",
+        "slug": "rotate-array-by-n-elements-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-index-1587115620",
+        "slug": "maximum-index-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-index-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "bitonic-generator-sort3343",
+        "slug": "bitonic-generator-sort3343",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/bitonic-generator-sort3343/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "array-practice-siddhartha": {
+    "subcategory": "Array & String",
+    "track_name": "Array Practice",
+    "track_slug": "array-practice-siddhartha",
+    "problems": [
+      {
+        "name": "buy-stock-2",
+        "slug": "buy-stock-2",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/buy-stock-2/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "stock-buy-and-sell2615",
+        "slug": "stock-buy-and-sell2615",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/stock-buy-and-sell2615/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "distinct-adjacent-element2121",
+        "slug": "distinct-adjacent-element2121",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/distinct-adjacent-element2121/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "reverse-array-in-groups0255",
+        "slug": "reverse-array-in-groups0255",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/reverse-array-in-groups0255/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "majority-vote",
+        "slug": "majority-vote",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/majority-vote/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rearrange-an-array-with-o1-extra-space3142",
+        "slug": "rearrange-an-array-with-o1-extra-space3142",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/rearrange-an-array-with-o1-extra-space3142/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "max-sum-path-in-two-arrays",
+        "slug": "max-sum-path-in-two-arrays",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "happiest-triplet2921",
+        "slug": "happiest-triplet2921",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/happiest-triplet2921/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "max-sum-subarray-by-removing-at-most-one-element",
+        "slug": "max-sum-subarray-by-removing-at-most-one-element",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/max-sum-subarray-by-removing-at-most-one-element/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "next-permutation5226",
+        "slug": "next-permutation5226",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/next-permutation5226/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "max-circular-subarray-sum-1587115620",
+        "slug": "max-circular-subarray-sum-1587115620",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "trapping-rain-water-1587115621",
+        "slug": "trapping-rain-water-1587115621",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rearrange-the-array-1639032648",
+        "slug": "rearrange-the-array-1639032648",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/rearrange-the-array-1639032648/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "matrix-siddhartha": {
+    "subcategory": "Array & String",
+    "track_name": "Matrix",
+    "track_slug": "matrix-siddhartha",
+    "problems": [
+      {
+        "name": "largest-zigzag-sequence5416",
+        "slug": "largest-zigzag-sequence5416",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/largest-zigzag-sequence5416/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "transpose-of-matrix-1587115621",
+        "slug": "transpose-of-matrix-1587115621",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "toeplitz-matrix",
+        "slug": "toeplitz-matrix",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/toeplitz-matrix/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "multiply-2-matrices4144",
+        "slug": "multiply-2-matrices4144",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/multiply-2-matrices4144/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "spirally-traversing-a-matrix-1587115621",
+        "slug": "spirally-traversing-a-matrix-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "search-in-a-matrix17201720",
+        "slug": "search-in-a-matrix17201720",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "median-in-a-row-wise-sorted-matrix1527",
+        "slug": "median-in-a-row-wise-sorted-matrix1527",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "set-matrix-zeroes",
+        "slug": "set-matrix-zeroes",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "c-matrix-rotation-by-180-degree0745",
+        "slug": "c-matrix-rotation-by-180-degree0745",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/c-matrix-rotation-by-180-degree0745/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "make-matrix-beautiful-1587115620",
+        "slug": "make-matrix-beautiful-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/make-matrix-beautiful-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "strings-fundamental-siddhartha": {
+    "subcategory": "Array & String",
+    "track_name": "Strings Fundamental",
+    "track_slug": "strings-fundamental-siddhartha",
+    "problems": [
+      {
+        "name": "palindrome-string0817",
+        "slug": "palindrome-string0817",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/palindrome-string0817/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "wifi-range--170647",
+        "slug": "wifi-range--170647",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/wifi-range--170647/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "keypad-typing0119",
+        "slug": "keypad-typing0119",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/keypad-typing0119/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "the-modified-string-1587115621",
+        "slug": "the-modified-string-1587115621",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/the-modified-string-1587115621/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "reverse-words-in-a-given-string5459",
+        "slug": "reverse-words-in-a-given-string5459",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "pangram-checking-1587115620",
+        "slug": "pangram-checking-1587115620",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/pangram-checking-1587115620/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "implement-atoi",
+        "slug": "implement-atoi",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/implement-atoi/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "pattern-search-kmp",
+        "slug": "pattern-search-kmp",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/pattern-search-kmp/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "strings-practice-siddhartha": {
+    "subcategory": "Array & String",
+    "track_name": "Strings Practice",
+    "track_slug": "strings-practice-siddhartha",
+    "problems": [
+      {
+        "name": "isomorphic-strings-1587115620",
+        "slug": "isomorphic-strings-1587115620",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rank-the-permutations-1587115621",
+        "slug": "rank-the-permutations-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/rank-the-permutations-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "add-binary-strings3805",
+        "slug": "add-binary-strings3805",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/add-binary-strings3805/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "multiply-two-strings",
+        "slug": "multiply-two-strings",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/multiply-two-strings/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "choose-and-swap0531",
+        "slug": "choose-and-swap0531",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/choose-and-swap0531/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "check-if-two-strings-are-k-anagrams-or-not",
+        "slug": "check-if-two-strings-are-k-anagrams-or-not",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/check-if-two-strings-are-k-anagrams-or-not/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "check-if-strings-are-rotations-of-each-other-or-not-1587115620",
+        "slug": "check-if-strings-are-rotations-of-each-other-or-not-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-characters-to-be-added-at-front-to-make-string-palindrome",
+        "slug": "minimum-characters-to-be-added-at-front-to-make-string-palindrome",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "searching-siddhartha": {
+    "subcategory": "Searching & Sorting",
+    "track_name": "Searching",
+    "track_slug": "searching-siddhartha",
+    "problems": [
+      {
+        "name": "number-of-occurrence2259",
+        "slug": "number-of-occurrence2259",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "search-in-a-rotated-array4618",
+        "slug": "search-in-a-rotated-array4618",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "binary-searchable-elements",
+        "slug": "binary-searchable-elements",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/binary-searchable-elements/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "triplet-sum-in-array-1587115621",
+        "slug": "triplet-sum-in-array-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "search-in-fully-rotated-sorted-2d-matrix",
+        "slug": "search-in-fully-rotated-sorted-2d-matrix",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/search-in-fully-rotated-sorted-2d-matrix/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-days-to-make-m-bouquets",
+        "slug": "minimum-days-to-make-m-bouquets",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-days-to-make-m-bouquets/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "aggressive-cows",
+        "slug": "aggressive-cows",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "kth-missing-positive-number-in-a-sorted-array",
+        "slug": "kth-missing-positive-number-in-a-sorted-array",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "median-of-two-sorted-arrays1618",
+        "slug": "median-of-two-sorted-arrays1618",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/median-of-two-sorted-arrays1618/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "the-painters-partition-problem1535",
+        "slug": "the-painters-partition-problem1535",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "allocate-minimum-number-of-pages0937",
+        "slug": "allocate-minimum-number-of-pages0937",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "sorting-siddhartha": {
+    "subcategory": "Searching & Sorting",
+    "track_name": "Sorting",
+    "track_slug": "sorting-siddhartha",
+    "problems": [
+      {
+        "name": "fitting-the-array1514",
+        "slug": "fitting-the-array1514",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/fitting-the-array1514/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "pairs-with-specific-difference1533",
+        "slug": "pairs-with-specific-difference1533",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "sorting-all-array-elements-except-one4653",
+        "slug": "sorting-all-array-elements-except-one4653",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/sorting-all-array-elements-except-one4653/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "sort-an-array-of-0s-1s-and-2s4231",
+        "slug": "sort-an-array-of-0s-1s-and-2s4231",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "union-of-two-sorted-arrays-1587115621",
+        "slug": "union-of-two-sorted-arrays-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "merge-two-sorted-arrays-1587115620",
+        "slug": "merge-two-sorted-arrays-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "smallest-number-subset1220",
+        "slug": "smallest-number-subset1220",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/smallest-number-subset1220/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "overlapping-intervals--170633",
+        "slug": "overlapping-intervals--170633",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "non-overlapping-intervals",
+        "slug": "non-overlapping-intervals",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/non-overlapping-intervals/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-meetings-in-one-room",
+        "slug": "maximum-meetings-in-one-room",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-possible-triangles-1587115620",
+        "slug": "count-possible-triangles-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-possible-triangles-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "inversion-of-array-1587115620",
+        "slug": "inversion-of-array-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "hashing-fundamental-siddhartha": {
+    "subcategory": "Hashing",
+    "track_name": "Hashing Fundamental",
+    "track_slug": "hashing-fundamental-siddhartha",
+    "problems": [
+      {
+        "name": "separate-chaining-in-hashing",
+        "slug": "separate-chaining-in-hashing",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/separate-chaining-in-hashing/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "quadratic-probing-in-hashing-1587115621",
+        "slug": "quadratic-probing-in-hashing-1587115621",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/quadratic-probing-in-hashing-1587115621/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "sets-siddhartha": {
+    "subcategory": "Hashing",
+    "track_name": "Sets",
+    "track_slug": "sets-siddhartha",
+    "problems": [
+      {
+        "name": "unordered-set-hash-function",
+        "slug": "unordered-set-hash-function",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/unordered-set-hash-function/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "print-different-characters-in-sorted-manner",
+        "slug": "print-different-characters-in-sorted-manner",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/print-different-characters-in-sorted-manner/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-indexed-character-1587115620",
+        "slug": "minimum-indexed-character-1587115620",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-indexed-character-1587115620/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "maps-siddhartha": {
+    "subcategory": "Hashing",
+    "track_name": "Maps",
+    "track_slug": "maps-siddhartha",
+    "problems": [
+      {
+        "name": "common-elements5420",
+        "slug": "common-elements5420",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/common-elements5420/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "new-registration-system",
+        "slug": "new-registration-system",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/new-registration-system/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-element-occurences",
+        "slug": "count-element-occurences",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/count-element-occurences/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "first-repeating-element4018",
+        "slug": "first-repeating-element4018",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/first-repeating-element4018/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "hashing-practice-siddhartha": {
+    "subcategory": "Hashing",
+    "track_name": "Hashing Practice",
+    "track_slug": "hashing-practice-siddhartha",
+    "problems": [
+      {
+        "name": "key-pair5616",
+        "slug": "key-pair5616",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/key-pair5616/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-consecutive-subsequence2449",
+        "slug": "longest-consecutive-subsequence2449",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-distinct-elements2054",
+        "slug": "find-distinct-elements2054",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-distinct-elements2054/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "powerfull-integer--170647",
+        "slug": "powerfull-integer--170647",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/powerfull-integer--170647/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "print-anagrams-together",
+        "slug": "print-anagrams-together",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/print-anagrams-together/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "equal-0-1-and-23208",
+        "slug": "equal-0-1-and-23208",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/equal-0-1-and-23208/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-pairs-in-array-divisible-by-k",
+        "slug": "count-pairs-in-array-divisible-by-k",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-pairs-in-array-divisible-by-k/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-frequency-of-an-element-in-a-given-range",
+        "slug": "count-frequency-of-an-element-in-a-given-range",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-frequency-of-an-element-in-a-given-range/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "sliding-window-siddhartha": {
+    "subcategory": "Sliding Window and Prefix Sum",
+    "track_name": "Sliding Window",
+    "track_slug": "sliding-window-siddhartha",
+    "problems": [
+      {
+        "name": "max-sum-subarray-of-size-k5313",
+        "slug": "max-sum-subarray-of-size-k5313",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "chocolate-distribution-problem3825",
+        "slug": "chocolate-distribution-problem3825",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-distinct-characters-in-string5848",
+        "slug": "longest-distinct-characters-in-string5848",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-distinct-characters-in-string5848/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-distinct-elements-in-every-window",
+        "slug": "count-distinct-elements-in-every-window",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-substring",
+        "slug": "count-substring",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-substring/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-repeating-character-replacement",
+        "slug": "longest-repeating-character-replacement",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-repeating-character-replacement/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621",
+        "slug": "smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "prefix-sum-siddhartha": {
+    "subcategory": "Sliding Window and Prefix Sum",
+    "track_name": "Prefix Sum",
+    "track_slug": "prefix-sum-siddhartha",
+    "problems": [
+      {
+        "name": "mean-of-range-in-array2123",
+        "slug": "mean-of-range-in-array2123",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/mean-of-range-in-array2123/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "subarray-with-given-sum--145933",
+        "slug": "subarray-with-given-sum--145933",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/subarray-with-given-sum--145933/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "subarray-range-with-given-sum2804",
+        "slug": "subarray-range-with-given-sum2804",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/subarray-range-with-given-sum2804/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-sub-array-with-sum-k0809",
+        "slug": "longest-sub-array-with-sum-k0809",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "largest-square-in-a-binary-matrix-with-at-most-k-1s-for-multiple-queries",
+        "slug": "largest-square-in-a-binary-matrix-with-at-most-k-1s-for-multiple-queries",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/largest-square-in-a-binary-matrix-with-at-most-k-1s-for-multiple-queries/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "max-value-after-m-range-operation4300",
+        "slug": "max-value-after-m-range-operation4300",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/max-value-after-m-range-operation4300/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "coins-of-geekland--141631",
+        "slug": "coins-of-geekland--141631",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/coins-of-geekland--141631/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-span-with-same-sum-in-two-binary-arrays5142",
+        "slug": "longest-span-with-same-sum-in-two-binary-arrays5142",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "balancing-consonants-and-vowels-ratio",
+        "slug": "balancing-consonants-and-vowels-ratio",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/balancing-consonants-and-vowels-ratio/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-the-number-of-subarrays",
+        "slug": "count-the-number-of-subarrays",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/count-the-number-of-subarrays/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "linkedlist-fundamental-siddhartha": {
+    "subcategory": "Linked List",
+    "track_name": "Linked List Fundamental",
+    "track_slug": "linkedlist-fundamental-siddhartha",
+    "problems": [
+      {
+        "name": "insertion-at-a-given-position-in-a-linked-list",
+        "slug": "insertion-at-a-given-position-in-a-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/insertion-at-a-given-position-in-a-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "delete-a-node-in-single-linked-list",
+        "slug": "delete-a-node-in-single-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "reverse-a-linked-list",
+        "slug": "reverse-a-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "insert-a-node-in-doubly-linked-list",
+        "slug": "insert-a-node-in-doubly-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "delete-node-in-doubly-linked-list",
+        "slug": "delete-node-in-doubly-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "reverse-a-doubly-linked-list",
+        "slug": "reverse-a-doubly-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "insert-node-at-last-in-circular-linked-list",
+        "slug": "insert-node-at-last-in-circular-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/insert-node-at-last-in-circular-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "deletion-and-reverse-in-linked-list",
+        "slug": "deletion-and-reverse-in-linked-list",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "linkedlist-practice-siddhartha": {
+    "subcategory": "Linked List",
+    "track_name": "Linked List Practice",
+    "track_slug": "linkedlist-practice-siddhartha",
+    "problems": [
+      {
+        "name": "segregate-even-and-odd-nodes-in-a-linked-list5035",
+        "slug": "segregate-even-and-odd-nodes-in-a-linked-list5035",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "nth-node-from-end-of-linked-list",
+        "slug": "nth-node-from-end-of-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "delete-without-head-pointer",
+        "slug": "delete-without-head-pointer",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "remove-loop-in-linked-list",
+        "slug": "remove-loop-in-linked-list",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-length-of-loop",
+        "slug": "find-length-of-loop",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "intersection-point-in-y-shapped-linked-lists",
+        "slug": "intersection-point-in-y-shapped-linked-lists",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "flattening-a-linked-list",
+        "slug": "flattening-a-linked-list",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "clone-a-linked-list-with-next-and-random-pointer",
+        "slug": "clone-a-linked-list-with-next-and-random-pointer",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "reverse-a-linked-list-in-groups-of-given-size",
+        "slug": "reverse-a-linked-list-in-groups-of-given-size",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "lru-cache",
+        "slug": "lru-cache",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/lru-cache/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "lfu-cache-1665050355",
+        "slug": "lfu-cache-1665050355",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/lfu-cache-1665050355/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "stack-siddhartha": {
+    "subcategory": "Stack, Queue & Deque",
+    "track_name": "Stack",
+    "track_slug": "stack-siddhartha",
+    "problems": [
+      {
+        "name": "implement-two-stacks-in-an-array",
+        "slug": "implement-two-stacks-in-an-array",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "implement-stack-using-linked-list",
+        "slug": "implement-stack-using-linked-list",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "delete-middle-element-of-a-stack",
+        "slug": "delete-middle-element-of-a-stack",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "stock-span-problem-1587115621",
+        "slug": "stock-span-problem-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "removing-consecutive-duplicates-2-1587115621",
+        "slug": "removing-consecutive-duplicates-2-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/removing-consecutive-duplicates-2-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "shopkeeper-profit",
+        "slug": "shopkeeper-profit",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/shopkeeper-profit/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "min-add-to-make-parentheses-valid",
+        "slug": "min-add-to-make-parentheses-valid",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "stack-permutations",
+        "slug": "stack-permutations",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/stack-permutations/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "decode-the-string2444",
+        "slug": "decode-the-string2444",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/decode-the-string2444/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-of-minimum-for-every-window-size3453",
+        "slug": "maximum-of-minimum-for-every-window-size3453",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-of-minimum-for-every-window-size3453/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-rectangular-area-in-a-histogram-1587115620",
+        "slug": "maximum-rectangular-area-in-a-histogram-1587115620",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "max-rectangle",
+        "slug": "max-rectangle",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/max-rectangle/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "queue-siddhartha": {
+    "subcategory": "Stack, Queue & Deque",
+    "track_name": "Queue",
+    "track_slug": "queue-siddhartha",
+    "problems": [
+      {
+        "name": "implement-queue-using-array",
+        "slug": "implement-queue-using-array",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/implement-queue-using-array/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "implement-queue-using-linked-list",
+        "slug": "implement-queue-using-linked-list",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/implement-queue-using-linked-list/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "generate-binary-numbers-1587115620",
+        "slug": "generate-binary-numbers-1587115620",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "stack-using-queue",
+        "slug": "stack-using-queue",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/stack-using-queue/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "reverse-first-k-elements-of-queue",
+        "slug": "reverse-first-k-elements-of-queue",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "interleave-the-first-half-of-the-queue-with-second-half",
+        "slug": "interleave-the-first-half-of-the-queue-with-second-half",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/interleave-the-first-half-of-the-queue-with-second-half/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-number-of-k-consecutive-bit-flips--171650",
+        "slug": "minimum-number-of-k-consecutive-bit-flips--171650",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-number-of-k-consecutive-bit-flips--171650/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "deque-siddhartha": {
+    "subcategory": "Stack, Queue & Deque",
+    "track_name": "Deque",
+    "track_slug": "deque-siddhartha",
+    "problems": [
+      {
+        "name": "implementation-of-deque-using-circular-array--174925",
+        "slug": "implementation-of-deque-using-circular-array--174925",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/implementation-of-deque-using-circular-array--174925/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "implementation-of-deque-using-doubly-linked-list",
+        "slug": "implementation-of-deque-using-doubly-linked-list",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/implementation-of-deque-using-doubly-linked-list/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "design-minmax-queue",
+        "slug": "design-minmax-queue",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/design-minmax-queue/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-of-all-subarrays-of-size-k3101",
+        "slug": "maximum-of-all-subarrays-of-size-k3101",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-bounded-difference-subarray",
+        "slug": "longest-bounded-difference-subarray",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-bounded-difference-subarray/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-subarray-sum--110820",
+        "slug": "maximum-subarray-sum--110820",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-subarray-sum--110820/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "tree-fundamental-siddhartha": {
+    "subcategory": "Tree",
+    "track_name": "Tree Fundamentals",
+    "track_slug": "tree-fundamental-siddhartha",
+    "problems": [
+      {
+        "name": "preorder-traversal",
+        "slug": "preorder-traversal",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/preorder-traversal/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "inorder-traversal",
+        "slug": "inorder-traversal",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/inorder-traversal/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "postorder-traversal",
+        "slug": "postorder-traversal",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/postorder-traversal/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "zigzag-tree-traversal",
+        "slug": "zigzag-tree-traversal",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "height-of-binary-tree",
+        "slug": "height-of-binary-tree",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/height-of-binary-tree/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "k-distance-from-root",
+        "slug": "k-distance-from-root",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/k-distance-from-root/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "max-and-min-element-in-binary-tree",
+        "slug": "max-and-min-element-in-binary-tree",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/max-and-min-element-in-binary-tree/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "tree-practice-siddhartha": {
+    "subcategory": "Tree",
+    "track_name": "Tree Practice",
+    "track_slug": "tree-practice-siddhartha",
+    "problems": [
+      {
+        "name": "check-if-subtree",
+        "slug": "check-if-subtree",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/check-if-subtree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "mirror-tree",
+        "slug": "mirror-tree",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/mirror-tree/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "check-for-balanced-tree",
+        "slug": "check-for-balanced-tree",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-difference-between-node-and-its-ancestor",
+        "slug": "maximum-difference-between-node-and-its-ancestor",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-difference-between-node-and-its-ancestor/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-number-of-subtrees-having-given-sum",
+        "slug": "count-number-of-subtrees-having-given-sum",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-number-of-subtrees-having-given-sum/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-width-of-tree",
+        "slug": "maximum-width-of-tree",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-width-of-tree/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "diameter-of-binary-tree",
+        "slug": "diameter-of-binary-tree",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-path-sum-from-any-node",
+        "slug": "maximum-path-sum-from-any-node",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "print-a-binary-tree-in-vertical-order",
+        "slug": "print-a-binary-tree-in-vertical-order",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "left-view-of-binary-tree",
+        "slug": "left-view-of-binary-tree",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "lowest-common-ancestor-in-a-binary-tree",
+        "slug": "lowest-common-ancestor-in-a-binary-tree",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "construct-tree-1",
+        "slug": "construct-tree-1",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/construct-tree-1/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "tree-from-postorder-and-inorder",
+        "slug": "tree-from-postorder-and-inorder",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "serialize-and-deserialize-a-binary-tree",
+        "slug": "serialize-and-deserialize-a-binary-tree",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "distribute-candies-in-a-binary-tree",
+        "slug": "distribute-candies-in-a-binary-tree",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/distribute-candies-in-a-binary-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "binary-tree-to-dll",
+        "slug": "binary-tree-to-dll",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/binary-tree-to-dll/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "burning-tree",
+        "slug": "burning-tree",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/burning-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-of-leaf-nodes-required-to-be-removed-at-each-step-to-empty-a-given-binary-tree",
+        "slug": "count-of-leaf-nodes-required-to-be-removed-at-each-step-to-empty-a-given-binary-tree",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/count-of-leaf-nodes-required-to-be-removed-at-each-step-to-empty-a-given-binary-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "ancestor-queries-on-a-tree",
+        "slug": "ancestor-queries-on-a-tree",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/ancestor-queries-on-a-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "binary-search-tree-siddhartha": {
+    "subcategory": "Tree",
+    "track_name": "Binary Search Tree",
+    "track_slug": "binary-search-tree-siddhartha",
+    "problems": [
+      {
+        "name": "insert-a-node-in-a-bst",
+        "slug": "insert-a-node-in-a-bst",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "delete-a-node-from-bst",
+        "slug": "delete-a-node-from-bst",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/delete-a-node-from-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "check-for-bst",
+        "slug": "check-for-bst",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/check-for-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-the-closest-element-in-bst",
+        "slug": "find-the-closest-element-in-bst",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "print-common-nodes-in-bst",
+        "slug": "print-common-nodes-in-bst",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/print-common-nodes-in-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "lowest-common-ancestor-in-a-bst",
+        "slug": "lowest-common-ancestor-in-a-bst",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "merge-two-bst-s",
+        "slug": "merge-two-bst-s",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/merge-two-bst-s/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "predecessor-and-successor",
+        "slug": "predecessor-and-successor",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/predecessor-and-successor/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "fixed-two-nodes-of-a-bst",
+        "slug": "fixed-two-nodes-of-a-bst",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "flatten-bst-to-sorted-list--111950",
+        "slug": "flatten-bst-to-sorted-list--111950",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "largest-bst",
+        "slug": "largest-bst",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/largest-bst/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "first-greater-height",
+        "slug": "first-greater-height",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/first-greater-height/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "heap-siddhartha": {
+    "subcategory": "Heap & Graph",
+    "track_name": "Heap",
+    "track_slug": "heap-siddhartha",
+    "problems": [
+      {
+        "name": "operations-on-binary-min-heap",
+        "slug": "operations-on-binary-min-heap",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/operations-on-binary-min-heap/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-cost-of-ropes-1587115620",
+        "slug": "minimum-cost-of-ropes-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "k-closest-elements3619",
+        "slug": "k-closest-elements3619",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/k-closest-elements3619/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "ticket-sellers3241",
+        "slug": "ticket-sellers3241",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/ticket-sellers3241/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "merge-k-sorted-arrays",
+        "slug": "merge-k-sorted-arrays",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "split-array-subsequences",
+        "slug": "split-array-subsequences",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/split-array-subsequences/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-stops",
+        "slug": "minimum-stops",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-stops/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-median-in-a-stream-1587115620",
+        "slug": "find-median-in-a-stream-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-smallest-range-containing-elements-from-k-lists",
+        "slug": "find-smallest-range-containing-elements-from-k-lists",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-cost-to-hire-k-workers",
+        "slug": "minimum-cost-to-hire-k-workers",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-cost-to-hire-k-workers/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "meeting-rooms-iii",
+        "slug": "meeting-rooms-iii",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/meeting-rooms-iii/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "graph-siddhartha": {
+    "subcategory": "Heap & Graph",
+    "track_name": "Graph",
+    "track_slug": "graph-siddhartha",
+    "problems": [
+      {
+        "name": "shortest-path-in-undirected-graph-having-unit-distance",
+        "slug": "shortest-path-in-undirected-graph-having-unit-distance",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-the-number-of-islands",
+        "slug": "find-the-number-of-islands",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rotten-oranges2536",
+        "slug": "rotten-oranges2536",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/rotten-oranges2536/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "replace-os-with-xs0052",
+        "slug": "replace-os-with-xs0052",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/replace-os-with-xs0052/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "level-of-nodes1147",
+        "slug": "level-of-nodes1147",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/level-of-nodes1147/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "lexicographically-smallest-string-using-swaps",
+        "slug": "lexicographically-smallest-string-using-swaps",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/lexicographically-smallest-string-using-swaps/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "detect-cycle-in-an-undirected-graph",
+        "slug": "detect-cycle-in-an-undirected-graph",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "topological-sort",
+        "slug": "topological-sort",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "detect-cycle-in-a-directed-graph",
+        "slug": "detect-cycle-in-a-directed-graph",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "shortest-path-in-directed-acyclic-graph",
+        "slug": "shortest-path-in-directed-acyclic-graph",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "course-schedule-i",
+        "slug": "course-schedule-i",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/course-schedule-i/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "eventual-safe-states",
+        "slug": "eventual-safe-states",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/eventual-safe-states/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "alien-dictionary",
+        "slug": "alien-dictionary",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "implementing-dijkstra-set-1-adjacency-matrix",
+        "slug": "implementing-dijkstra-set-1-adjacency-matrix",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "distance-from-the-source-bellman-ford-algorithm",
+        "slug": "distance-from-the-source-bellman-ford-algorithm",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "implementing-floyd-warshall2042",
+        "slug": "implementing-floyd-warshall2042",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "shortest-path-with-at-most-k-nodes",
+        "slug": "shortest-path-with-at-most-k-nodes",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/shortest-path-with-at-most-k-nodes/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "number-of-ways-to-arrive-at-destination",
+        "slug": "number-of-ways-to-arrive-at-destination",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/number-of-ways-to-arrive-at-destination/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+        "slug": "city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-weight-cycle",
+        "slug": "minimum-weight-cycle",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-weight-cycle/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-spanning-tree",
+        "slug": "minimum-spanning-tree",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-cost-to-connect-all-houses-in-a-city",
+        "slug": "minimum-cost-to-connect-all-houses-in-a-city",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-stone-removal-1662179442",
+        "slug": "maximum-stone-removal-1662179442",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-stone-removal-1662179442/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "account-merge",
+        "slug": "account-merge",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/account-merge/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "evaluate-division",
+        "slug": "evaluate-division",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/evaluate-division/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "city-and-clinics",
+        "slug": "city-and-clinics",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/city-and-clinics/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "bridge-edge-in-graph",
+        "slug": "bridge-edge-in-graph",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/bridge-edge-in-graph/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "articulation-point-1",
+        "slug": "articulation-point-1",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/articulation-point-1/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "strongly-connected-component-tarjanss-algo-1587115621",
+        "slug": "strongly-connected-component-tarjanss-algo-1587115621",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/strongly-connected-component-tarjanss-algo-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "greedy-siddhartha": {
+    "subcategory": "Greedy, Backtracking & DP",
+    "track_name": "Greedy",
+    "track_slug": "greedy-siddhartha",
+    "problems": [
+      {
+        "name": "minimize-sum-of-alternate-product2033",
+        "slug": "minimize-sum-of-alternate-product2033",
+        "difficulty": "Basic",
+        "url": "https://www.geeksforgeeks.org/problems/minimize-sum-of-alternate-product2033/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "-minimum-number-of-coins4426",
+        "slug": "-minimum-number-of-coins4426",
+        "difficulty": "Easy",
+        "url": "https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1",
+        "company": "TCS, Infosys",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "activity-selection-1587115620",
+        "slug": "activity-selection-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimize-the-heights3351",
+        "slug": "minimize-the-heights3351",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-steps-to-get-desired-array5519",
+        "slug": "minimum-steps-to-get-desired-array5519",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-cost-to-cut-a-board-into-squares",
+        "slug": "minimum-cost-to-cut-a-board-into-squares",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-platforms-1587115620",
+        "slug": "minimum-platforms-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "huffman-encoding3345",
+        "slug": "huffman-encoding3345",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/huffman-encoding3345/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "backtracking-siddhartha": {
+    "subcategory": "Greedy, Backtracking & DP",
+    "track_name": "Backtracking",
+    "track_slug": "backtracking-siddhartha",
+    "problems": [
+      {
+        "name": "generate-all-possible-parentheses",
+        "slug": "generate-all-possible-parentheses",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/generate-all-possible-parentheses/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rat-in-a-maze-problem",
+        "slug": "rat-in-a-maze-problem",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "combination-sum-1587115620",
+        "slug": "combination-sum-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/combination-sum-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "possible-words-from-phone-digits-1587115620",
+        "slug": "possible-words-from-phone-digits-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "all-possible-interpretations",
+        "slug": "all-possible-interpretations",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/all-possible-interpretations/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "permutations-of-a-given-string2041",
+        "slug": "permutations-of-a-given-string2041",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "n-queen-problem0315",
+        "slug": "n-queen-problem0315",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/n-queen-problem0315/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "solve-the-sudoku-1587115621",
+        "slug": "solve-the-sudoku-1587115621",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "dynamic-programming-siddhartha": {
+    "subcategory": "Greedy, Backtracking & DP",
+    "track_name": "Dynamic Programming",
+    "track_slug": "dynamic-programming-siddhartha",
+    "problems": [
+      {
+        "name": "geek-jump",
+        "slug": "geek-jump",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/geek-jump/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-ways-to-reach-the-nth-stair-1587115620",
+        "slug": "count-ways-to-reach-the-nth-stair-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-number-of-jumps-1587115620",
+        "slug": "minimum-number-of-jumps-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "friends-pairing-problem5425",
+        "slug": "friends-pairing-problem5425",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "0-1-knapsack-problem0945",
+        "slug": "0-1-knapsack-problem0945",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "subset-sum-problem-1611555638",
+        "slug": "subset-sum-problem-1611555638",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "minimum-sum-partition3317",
+        "slug": "minimum-sum-partition3317",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "target-sum-1626326450",
+        "slug": "target-sum-1626326450",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/target-sum-1626326450/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "rod-cutting0840",
+        "slug": "rod-cutting0840",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "number-of-coins1824",
+        "slug": "number-of-coins1824",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/number-of-coins1824/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "coin-change2448",
+        "slug": "coin-change2448",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/coin-change2448/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "unique-bsts-1587115621",
+        "slug": "unique-bsts-1587115621",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/unique-bsts-1587115621/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "optimal-strategy-for-a-game-1587115620",
+        "slug": "optimal-strategy-for-a-game-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "egg-dropping-puzzle-1587115620",
+        "slug": "egg-dropping-puzzle-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "walls-coloring-ii--170647",
+        "slug": "walls-coloring-ii--170647",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/walls-coloring-ii--170647/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-common-subsequence-1587115620",
+        "slug": "longest-common-subsequence-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "longest-increasing-subsequence-1587115620",
+        "slug": "longest-increasing-subsequence-1587115620",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximum-number-of-bridges",
+        "slug": "maximum-number-of-bridges",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/maximum-number-of-bridges/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "edit-distance3702",
+        "slug": "edit-distance3702",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/edit-distance3702/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "palindromic-patitioning4845",
+        "slug": "palindromic-patitioning4845",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/palindromic-patitioning4845/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "brackets-in-matrix-chain-multiplication1024",
+        "slug": "brackets-in-matrix-chain-multiplication1024",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/brackets-in-matrix-chain-multiplication1024/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "largest-square-formed-in-a-matrix0806",
+        "slug": "largest-square-formed-in-a-matrix0806",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "find-number-of-times-a-string-occurs-as-a-subsequence3020",
+        "slug": "find-number-of-times-a-string-occurs-as-a-subsequence3020",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/find-number-of-times-a-string-occurs-as-a-subsequence3020/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "number-of-distinct-subsequences0909",
+        "slug": "number-of-distinct-subsequences0909",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/number-of-distinct-subsequences0909/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-numbers2004",
+        "slug": "count-numbers2004",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/count-numbers2004/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "geeks-race",
+        "slug": "geeks-race",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/geeks-race/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "odd-even-jump",
+        "slug": "odd-even-jump",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/odd-even-jump/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "trie-siddhartha": {
+    "subcategory": "Trie & Segment Tree",
+    "track_name": "Trie",
+    "track_slug": "trie-siddhartha",
+    "problems": [
+      {
+        "name": "trie-insert-and-search0651",
+        "slug": "trie-insert-and-search0651",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "trie-delete",
+        "slug": "trie-delete",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/trie-delete/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "count-of-distinct-substrings",
+        "slug": "count-of-distinct-substrings",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "word-boggle4143",
+        "slug": "word-boggle4143",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/word-boggle4143/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "contiguous-elements-xor4151",
+        "slug": "contiguous-elements-xor4151",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/contiguous-elements-xor4151/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "word-squares",
+        "slug": "word-squares",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/word-squares/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "maximize-distance-between-binary-strings",
+        "slug": "maximize-distance-between-binary-strings",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/maximize-distance-between-binary-strings/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  },
+  "segment-tree-binary-indexed-trees-siddhartha": {
+    "subcategory": "Trie & Segment Tree",
+    "track_name": "Segment Tree and Binary Indexed Trees",
+    "track_slug": "segment-tree-binary-indexed-trees-siddhartha",
+    "problems": [
+      {
+        "name": "range-sum-queries2353",
+        "slug": "range-sum-queries2353",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/range-sum-queries2353/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "range-min-max-queries4557",
+        "slug": "range-min-max-queries4557",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/range-min-max-queries4557/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "range-gcd-queries3654",
+        "slug": "range-gcd-queries3654",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/range-gcd-queries3654/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "range-queries-for-longest-correct-bracket-subsequence4719",
+        "slug": "range-queries-for-longest-correct-bracket-subsequence4719",
+        "difficulty": "Medium",
+        "url": "https://www.geeksforgeeks.org/problems/range-queries-for-longest-correct-bracket-subsequence4719/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      },
+      {
+        "name": "range-sum-query-2d-with-updates",
+        "slug": "range-sum-query-2d-with-updates",
+        "difficulty": "Hard",
+        "url": "https://www.geeksforgeeks.org/problems/range-sum-query-2d-with-updates/1",
+        "company": "Amazon, Microsoft",
+        "companies": [],
+        "topics": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA LIVE — Classroom Visual Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar"></aside>
+    <main class="main" id="main">
+      <header class="topbar">
+        <div>
+          <h1 id="pageTitle">DSA LIVE</h1>
+          <div class="path" id="pagePath">Day 1 · Time Complexity</div>
+        </div>
+        <div class="topbar-actions">
+          <button class="mode-btn" id="themeBtn">☀ / ☾ Theme</button>
+          <button class="mode-btn" id="presentBtn">▣ Present Mode</button>
+        </div>
+      </header>
+      <section id="topicRoot"></section>
+      <footer class="credits">DSA Visual Lab — expandable classroom tool · built for 9-day / 18-class DSA course</footer>
+    </main>
+  </div>
+
+  <!-- Core Utilities -->
+  <script src="js/utils.js"></script>
+
+  <!-- Day 1 Topic Visualizers -->
+  <script src="js/topics/day1/complexity.js"></script>
+  <script src="js/topics/day1/errors.js"></script>
+  <script src="js/topics/day1/gcd.js"></script>
+  <script src="js/topics/day1/prime.js"></script>
+  <script src="js/topics/day1/digits.js"></script>
+  <script src="js/topics/day1/largest.js"></script>
+  <script src="js/topics/day1/majority.js"></script>
+  <script src="js/topics/day1/kadane.js"></script>
+  <script src="js/topics/day1/missing.js"></script>
+  <script src="js/topics/day1/median.js"></script>
+
+  <!-- Day 2 Topic Visualizers -->
+  <script src="js/topics/day2/rotate.js"></script>
+  <script src="js/topics/day2/reverse.js"></script>
+  <script src="js/topics/day2/palindrome.js"></script>
+  <script src="js/topics/day2/anagram.js"></script>
+  <script src="js/topics/day2/pangram.js"></script>
+  <script src="js/topics/day2/isomorphic.js"></script>
+  <script src="js/topics/day2/subarrays.js"></script>
+  <script src="js/topics/day2/transpose.js"></script>
+  <script src="js/topics/day2/set_zero.js"></script>
+
+  <!-- Course Syllabus Registry -->
+  <script src="js/days.js"></script>
+
+  <!-- Application Bootstrap -->
+  <script src="js/app.js"></script>
+
+  <!-- Official Agentation (v3+ by Benji Taylor) Visual Feedback for AI Agents -->
+  <div id="agentation-root"></div>
+  <script type="module">
+    import React from 'https://esm.sh/react@18.3.1';
+    import { createRoot } from 'https://esm.sh/react-dom@18.3.1/client';
+    import { Agentation } from 'https://esm.sh/agentation@3?deps=react@18.3.1,react-dom@18.3.1';
+
+    const container = document.getElementById('agentation-root');
+    if (container) {
+      const root = createRoot(container);
+      root.render(React.createElement(Agentation));
+    }
+  </script>
+</body>
+</html>
