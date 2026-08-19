@@ -88,6 +88,18 @@ else:         median = (array[n/2 - 1] + array[n/2]) / 2`)}
     if(n % 2 == 1) return arr[n/2];
     return (arr[n/2 - 1] + arr[n/2]) / 2.0;
 }`)}
+      ${pythonPanel(this.id,
+`# Find Median — O(n log n) due to sort
+def find_median(arr):
+    arr.sort()
+    n = len(arr)
+    if n % 2 == 1:
+        return arr[n // 2]
+    return (arr[n // 2 - 1] + arr[n // 2]) / 2
+
+# Using statistics module (Pythonic)
+import statistics
+print(statistics.median([3, 1, 4, 1, 5]))  # 3`)}
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Segregate 0s and 1s (Two-Pointer In-Place Partition)', slug: 'segregate-0s-and-1s5106', track: 'array-fundamental-siddhartha', isBatch: true, company: 'Amazon, Paytm, Infosys', hint: 'Two-pointer approach or Dutch National Flag partition in single pass.' },
         { lvl: 'medium', title: 'Reverse Array in Groups of Size K', slug: 'reverse-array-in-groups0255', track: 'array-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Adobe', hint: 'Loop i by step k and reverse subarray from i to min(i+k-1, n-1).' },
@@ -99,5 +111,6 @@ else:         median = (array[n/2 - 1] + array[n/2]) / 2`)}
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

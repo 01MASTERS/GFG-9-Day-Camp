@@ -87,6 +87,22 @@ for each x in array:
     }
     return {maxV, secondV};
 }`)}
+      ${pythonPanel(this.id,
+`# Largest and Second Largest — O(n)
+def largest_and_second(arr):
+    max_v = second_v = float('-inf')
+    for x in arr:
+        if x > max_v:
+            second_v = max_v
+            max_v = x
+        elif x > second_v and x != max_v:
+            second_v = x
+    return max_v, second_v
+
+# Pythonic (but O(n log n) due to sort)
+def largest_and_second_sort(arr):
+    unique = sorted(set(arr), reverse=True)
+    return unique[0], unique[1] if len(unique) > 1 else None`)}
       ${practicePanel(this.id, [
         { lvl: 'basic', title: 'Array Insert at Index', slug: 'array-insert-at-index', track: 'array-fundamental-siddhartha', isBatch: true, company: 'TCS, Wipro', hint: 'Shift elements to right to insert value at index in 0-indexed array.' },
         { lvl: 'easy', title: 'Buildings Receiving Sunlight (Prefix Max)', slug: 'buildings-receiving-sunlight3032', track: 'array-fundamental-siddhartha', isBatch: true, company: 'Amazon, Infosys', hint: 'Building sees sunlight if its height is strictly greater than all preceding buildings.' },
@@ -97,5 +113,6 @@ for each x in array:
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

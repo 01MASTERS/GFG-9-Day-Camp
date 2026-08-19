@@ -96,6 +96,25 @@ int missingNumberSum(vector<int>& arr, int n){
     for(int x : arr) actual += x;
     return (int)(expected - actual);
 }`)}
+      ${pythonPanel(this.id,
+`# Missing Number — XOR method O(n)
+def missing_number(arr, n):
+    xor_range = 0
+    for k in range(n + 1):
+        xor_range ^= k
+    xor_arr = 0
+    for x in arr:
+        xor_arr ^= x
+    return xor_range ^ xor_arr
+
+# Sum formula method
+def missing_number_sum(arr, n):
+    expected = n * (n + 1) // 2
+    return expected - sum(arr)
+
+# Pythonic one-liner
+def missing_number_set(arr, n):
+    return (set(range(n + 1)) - set(arr)).pop()`)}
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Find Repetitive Element from 1 to N-1', slug: 'find-repetitive-element-from-1-to-n-1', track: 'bit-magic-siddhartha', isBatch: true, company: 'TCS, Infosys, Cognizant', hint: 'XOR all array elements with 1..N-1 to isolate the duplicate value.' },
         { lvl: 'easy', title: 'XOR of Numbers in a Range (L to R)', slug: 'find-xor-of-numbers-from-l-to-r', track: 'bit-magic-siddhartha', isBatch: true, company: 'Amazon, Adobe', hint: 'Compute XOR 1..R and XOR 1..(L-1) using O(1) modulo 4 pattern.' },
@@ -107,5 +126,6 @@ int missingNumberSum(vector<int>& arr, int n){
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

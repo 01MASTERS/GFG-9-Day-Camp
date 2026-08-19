@@ -651,6 +651,33 @@ void quadratic(int n) {                                              // O(n^2)
     for(int i = 0; i < n; i++)
         for(int j = 0; j < n; j++) cout << i + j;
 }`)}
+      ${pythonPanel(this.id,
+`# Recognising complexity from code shape
+def constant(n):
+    print(n)                                         # O(1)
+
+def logarithmic(n):
+    c = 0
+    while n > 1:
+        n //= 2
+        c += 1
+    return c                                         # O(log n)
+
+def linear(n):
+    for i in range(n):
+        print(i)                                     # O(n)
+
+def nlogn(n):
+    for i in range(n):
+        j = 1
+        while j < n:
+            print(j)
+            j *= 2                                   # O(n log n)
+
+def quadratic(n):
+    for i in range(n):
+        for j in range(n):
+            print(i + j)                             # O(n^2)`)}
 
       ${practicePanel(this.id, [
         { lvl: 'basic', title: 'Analysis of Algorithms — Loops & Asymptotic Notation', slug: 'time-complexity-analysis', isBatch: true, company: 'Amazon, Microsoft, TCS', hint: 'Find closed-form Big-O for dependent and geometric loops.' },
@@ -666,11 +693,13 @@ void quadratic(int n) {                                              // O(n^2)
         <button class="tab-btn active" data-tab="cheatsheet">Constraints Guide</button>
         <button class="tab-btn" data-tab="pseudo">Pseudocode</button>
         <button class="tab-btn" data-tab="cpp">C++ Solution</button>
+        <button class="tab-btn" data-tab="python">Python Solution</button>
         <button class="tab-btn" data-tab="practice">Practice</button>
       `;
     }
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

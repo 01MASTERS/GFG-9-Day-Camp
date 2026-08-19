@@ -84,6 +84,27 @@ const TOPIC_PRIME = {
     }
     return true;
 }`)}
+      ${pythonPanel(this.id,
+`# Prime Check — O(sqrt(n))
+def is_prime(n):
+    if n <= 1:
+        return False
+    i = 2
+    while i * i <= n:
+        if n % i == 0:
+            return False
+        i += 1
+    return True
+
+# Sieve of Eratosthenes — primes up to n
+def sieve(n):
+    is_p = [True] * (n + 1)
+    is_p[0] = is_p[1] = False
+    for i in range(2, int(n**0.5) + 1):
+        if is_p[i]:
+            for j in range(i*i, n+1, i):
+                is_p[j] = False
+    return [i for i in range(n+1) if is_p[i]]`)}
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Prime Factors — Sorted Unique Prime Factors', slug: 'prime-factors5052', track: 'mathematics-siddhartha', isBatch: true, company: 'TCS, Infosys, Wipro', hint: 'Trial division up to sqrt(n) extracting powers of prime factors.' },
         { lvl: 'easy', title: 'All Divisors of a Number', slug: 'all-divisors-of-a-number', track: 'mathematics-siddhartha', isBatch: true, company: 'Amazon, Microsoft', hint: 'Find all factor pairs (i, n/i) in O(sqrt(n)) time.' },
@@ -94,5 +115,6 @@ const TOPIC_PRIME = {
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

@@ -363,6 +363,33 @@ void setZeroesAux(vector<vector<int>>& matrix) {
         }
     }
 }`)}
+      ${pythonPanel(this.id,
+`# Set Matrix Zeroes — O(1) Auxiliary Space
+def set_zeroes(matrix):
+    m, n = len(matrix), len(matrix[0])
+    first_row_zero = any(matrix[0][j] == 0 for j in range(n))
+    first_col_zero = any(matrix[i][0] == 0 for i in range(m))
+
+    # Mark zeroes using first row/col as headers
+    for i in range(1, m):
+        for j in range(1, n):
+            if matrix[i][j] == 0:
+                matrix[i][0] = 0
+                matrix[0][j] = 0
+
+    # Fill inner matrix
+    for i in range(1, m):
+        for j in range(1, n):
+            if matrix[i][0] == 0 or matrix[0][j] == 0:
+                matrix[i][j] = 0
+
+    # Handle first row and column
+    if first_row_zero:
+        for j in range(n):
+            matrix[0][j] = 0
+    if first_col_zero:
+        for i in range(m):
+            matrix[i][0] = 0`)}
 
       ${practicePanel(this.id, [
         { lvl: 'medium', title: 'Set Matrix Zeroes', slug: 'set-matrix-zeroes', track: 'matrix-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Google, Facebook', hint: 'Use 1st row and 1st column as in-place marker bins with two boolean boundary flags to achieve optimal O(1) space.' },
@@ -374,5 +401,6 @@ void setZeroesAux(vector<vector<int>>& matrix) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

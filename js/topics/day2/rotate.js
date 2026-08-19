@@ -264,6 +264,27 @@ void rotateLeftJuggling(vector<int>& arr, int d) {
         arr[j] = temp;
     }
 }`)}
+      ${pythonPanel(this.id,
+`# Left Rotate by d elements — Reversal Algorithm O(n)
+def rotate_left(arr, d):
+    n = len(arr)
+    d = d % n
+    arr[:d] = arr[:d][::-1]
+    arr[d:] = arr[d:][::-1]
+    arr[:] = arr[::-1]
+
+# Right Rotate by k elements
+def rotate_right(arr, k):
+    n = len(arr)
+    k = k % n
+    arr[:] = arr[::-1]
+    arr[:k] = arr[:k][::-1]
+    arr[k:] = arr[k:][::-1]
+
+# Pythonic slicing (creates new list)
+def rotate_left_slice(arr, d):
+    d = d % len(arr)
+    return arr[d:] + arr[:d]`)}
 
       ${practicePanel(this.id, [
         { lvl: 'medium', title: 'Rotate Array by N Elements', slug: 'rotate-array-by-n-elements-1587115621', track: 'array-fundamental-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Adobe, Cisco', hint: 'Apply the 3-reversals method to rotate the array counter-clockwise by d in O(1) auxiliary space.' },
@@ -275,5 +296,6 @@ void rotateLeftJuggling(vector<int>& arr, int d) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

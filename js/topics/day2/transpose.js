@@ -317,6 +317,27 @@ vector<vector<int>> transposeRectangular(const vector<vector<int>>& matrix) {
     }
     return result;
 }`)}
+      ${pythonPanel(this.id,
+`# In-Place Transpose of N x N Matrix
+def transpose(matrix):
+    n = len(matrix)
+    for i in range(n):
+        for j in range(i + 1, n):
+            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+
+# Rotate 90 Degrees Clockwise
+def rotate_90_clockwise(matrix):
+    transpose(matrix)
+    for row in matrix:
+        row.reverse()
+
+# Rectangular M x N Transpose
+def transpose_rect(matrix):
+    return [list(row) for row in zip(*matrix)]
+
+# Pythonic one-liner
+import numpy as np
+# np.array(matrix).T`)}
 
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Transpose of Matrix', slug: 'transpose-of-matrix-1587115621', track: 'matrix-siddhartha', isBatch: true, company: 'TCS, Infosys, Amazon', hint: 'Swap matrix[i][j] and matrix[j][i] across the diagonal for j > i in O(N²) time and O(1) space.' },
@@ -328,5 +349,6 @@ vector<vector<int>> transposeRectangular(const vector<vector<int>>& matrix) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

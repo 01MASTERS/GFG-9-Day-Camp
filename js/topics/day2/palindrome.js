@@ -237,6 +237,25 @@ bool validPalindromeII(string s) {
     }
     return true;
 }`)}
+      ${pythonPanel(this.id,
+`# Palindrome String Check — O(n) time, O(1) space
+def is_palindrome(s):
+    return s == s[::-1]
+
+# Two-pointer approach
+def is_palindrome_two_ptr(s):
+    left, right = 0, len(s) - 1
+    while left < right:
+        if s[left] != s[right]:
+            return False
+        left += 1
+        right -= 1
+    return True
+
+# Valid Palindrome (alphanumeric only, case-insensitive)
+def is_valid_palindrome(s):
+    filtered = [c.lower() for c in s if c.isalnum()]
+    return filtered == filtered[::-1]`)}
 
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Palindrome String', slug: 'palindrome-string0817', track: 'strings-fundamental-siddhartha', isBatch: true, company: 'Amazon, Cisco, Paytm', hint: 'Two-pointer inward scan checking s[i] == s[n-1-i] in O(n) time and O(1) space.' },
@@ -248,5 +267,6 @@ bool validPalindromeII(string s) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

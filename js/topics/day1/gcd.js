@@ -88,6 +88,22 @@ int gcdRec(int a, int b){
     if(b==0) return a;
     return gcdRec(b, a%b);
 }`)}
+      ${pythonPanel(this.id,
+`# GCD — Euclidean Algorithm
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# Recursive version
+def gcd_rec(a, b):
+    if b == 0:
+        return a
+    return gcd_rec(b, a % b)
+
+# Using math module (Pythonic)
+import math
+print(math.gcd(48, 18))  # 6`)}
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'GCD of Two Numbers (Euclidean Algorithm)', slug: 'gcd-of-two-numbers3459', track: 'mathematics-siddhartha', isBatch: true, company: 'Amazon, Infosys, TCS', hint: 'Euclidean reduction: gcd(a, b) = gcd(b, a % b).' },
         { lvl: 'easy', title: 'Modular Multiplication — (a * b) % m', slug: 'modular-multiplication', track: 'mathematics-siddhartha', isBatch: true, company: 'TCS, Wipro', hint: 'Prevent overflow by computing (a % m * b % m) % m.' },
@@ -98,5 +114,6 @@ int gcdRec(int a, int b){
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

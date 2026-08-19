@@ -39,7 +39,23 @@ const DAYS = [
       TOPIC_SET_MATRIX_ZERO
     ]
   },
-  { id: 'day3', label: 'Day 3 — Sorting II & Searching', status: 'locked', topics: [] },
+  {
+    id: 'day3',
+    label: 'Day 3 — Searching & Sorting',
+    status: 'active',
+    topics: [
+      TOPIC_LINEAR_SEARCH,
+      TOPIC_BINARY_SEARCH,
+      TOPIC_PEAK_ELEMENT,
+      TOPIC_COUNT_OCCURRENCE,
+      TOPIC_FIRST_OCCURRENCE,
+      TOPIC_LAST_OCCURRENCE,
+      TOPIC_ROTATED_SEARCH,
+      TOPIC_BUBBLE_SORT,
+      TOPIC_SELECTION_SORT,
+      TOPIC_INSERTION_SORT
+    ]
+  },
   { id: 'day4', label: 'Day 4 — Two Pointers & Sliding Window', status: 'locked', topics: [] },
   { id: 'day5', label: 'Day 5 — Strings & Hashing', status: 'locked', topics: [] },
   { id: 'day6', label: 'Day 6 — Linked Lists', status: 'locked', topics: [] },

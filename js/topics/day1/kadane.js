@@ -98,6 +98,29 @@ int maxSubArrayWithBounds(vector<int>& arr, int &start, int &end){
     }
     return bestSum;
 }`)}
+      ${pythonPanel(this.id,
+`# Kadane's Algorithm — Max Subarray Sum O(n)
+def max_sub_array(arr):
+    current_sum = best_sum = arr[0]
+    for i in range(1, len(arr)):
+        current_sum = max(arr[i], current_sum + arr[i])
+        best_sum = max(best_sum, current_sum)
+    return best_sum
+
+# Variant with subarray bounds
+def max_sub_array_bounds(arr):
+    current_sum = best_sum = arr[0]
+    start = end = temp_start = 0
+    for i in range(1, len(arr)):
+        if arr[i] > current_sum + arr[i]:
+            current_sum = arr[i]
+            temp_start = i
+        else:
+            current_sum += arr[i]
+        if current_sum > best_sum:
+            best_sum = current_sum
+            start, end = temp_start, i
+    return best_sum, start, end`)}
       ${practicePanel(this.id, [
         { lvl: 'medium', title: "Kadane's Algorithm — Max Subarray Sum", slug: 'kadanes-algorithm-1587115620', track: 'array-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Samsung, Flipkart', hint: 'Find contiguous subarray having the maximum possible sum in O(N) time and O(1) space.' },
         { lvl: 'medium', title: 'Max Sum Subarray by Removing at Most One Element', slug: 'max-sum-subarray-by-removing-at-most-one-element', track: 'array-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Google', hint: 'Maintain forward and backward Kadane arrays to compute max sum after optional single deletion.' },
@@ -108,5 +131,6 @@ int maxSubArrayWithBounds(vector<int>& arr, int &start, int &end){
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

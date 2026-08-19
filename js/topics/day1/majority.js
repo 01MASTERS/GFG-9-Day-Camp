@@ -97,6 +97,22 @@ return candidate   // verify by re-counting if majority is not guaranteed`)}
     // if (freq <= arr.size()/2) return -1; // no majority
     return candidate;
 }`)}
+      ${pythonPanel(this.id,
+`# Majority Element — Boyer-Moore Voting O(n)
+def majority_element(arr):
+    candidate, count = 0, 0
+    for x in arr:
+        if count == 0:
+            candidate = x
+        count += 1 if x == candidate else -1
+    return candidate
+
+# With verification
+def majority_element_verified(arr):
+    candidate = majority_element(arr)
+    if arr.count(candidate) > len(arr) // 2:
+        return candidate
+    return -1  # no majority`)}
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Majority Element — Boyer-Moore Algorithm (> n/2 Times)', slug: 'majority-element-1587115620', track: 'array-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Google, Flipkart', hint: 'Boyer-Moore voting algorithm with count cancellation in O(N) time and O(1) space.' },
         { lvl: 'medium', title: 'Majority Vote — Elements Occurring > n/3 Times', slug: 'majority-vote', track: 'array-practice-siddhartha', isBatch: true, company: 'Amazon, Google, Microsoft', hint: 'Extended Boyer-Moore tracking 2 potential candidates with 2 counters.' },
@@ -106,5 +122,6 @@ return candidate   // verify by re-counting if majority is not guaranteed`)}
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

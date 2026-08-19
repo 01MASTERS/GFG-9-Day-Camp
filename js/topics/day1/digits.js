@@ -120,6 +120,24 @@ bool isArmstrong(int n){
     }
     return sum==original;
 }`)}
+      ${pythonPanel(this.id,
+`# Sum of digits
+def sum_of_digits(n):
+    s = 0
+    while n > 0:
+        s += n % 10
+        n //= 10
+    return s
+
+# Palindrome check
+def is_palindrome(n):
+    return str(n) == str(n)[::-1]
+
+# Armstrong number
+def is_armstrong(n):
+    digits = str(n)
+    k = len(digits)
+    return sum(int(d)**k for d in digits) == n`)}
       ${practicePanel(this.id, [
         { lvl: 'basic', title: 'Total Digits in 1 to N (Count Digits)', slug: 'total-digits4030', track: 'mathematics-siddhartha', isBatch: true, company: 'TCS, Infosys, Wipro', hint: 'Count total digits across all integers from 1 to n.' },
         { lvl: 'easy', title: 'Trailing Zeroes in Factorial', slug: 'trailing-zeroes-in-factorial5134', track: 'mathematics-siddhartha', isBatch: true, company: 'Microsoft, MakeMyTrip, Amazon', hint: 'Count factors of 5 in n!: n/5 + n/25 + n/125 + ...' },
@@ -131,5 +149,6 @@ bool isArmstrong(int n){
     `);
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

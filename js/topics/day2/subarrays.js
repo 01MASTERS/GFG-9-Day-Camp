@@ -277,6 +277,37 @@ int splitEqualSumSubarrays(vector<int>& arr) {
     }
     return -1;
 }`)}
+      ${pythonPanel(this.id,
+`# Print All Subarrays — O(n^2)
+def all_subarrays(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(i, n):
+            print(arr[i:j+1])
+
+# Count Strictly Increasing Subarrays (len >= 2)
+def count_increasing_subarrays(arr):
+    n = len(arr)
+    count = 0
+    length = 1
+    for i in range(1, n):
+        if arr[i] > arr[i - 1]:
+            length += 1
+        else:
+            count += length * (length - 1) // 2
+            length = 1
+    count += length * (length - 1) // 2
+    return count
+
+# Split into Two Equal Sum Subarrays
+def split_equal_sum(arr):
+    total = sum(arr)
+    prefix = 0
+    for i in range(len(arr)):
+        prefix += arr[i]
+        if prefix == total - prefix:
+            return i
+    return -1`)}
 
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Count Strictly Increasing Subarrays', slug: 'count-increasing-subarrays5301', track: 'array-fundamental-siddhartha', isBatch: true, company: 'Amazon, Microsoft', hint: 'Find length len of each contiguous increasing segment. Number of valid subarrays in segment is len * (len - 1) / 2.' },
@@ -288,5 +319,6 @@ int splitEqualSumSubarrays(vector<int>& arr) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

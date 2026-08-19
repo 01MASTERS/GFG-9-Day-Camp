@@ -238,6 +238,7 @@ function baseTopicShell(root, { id, title, intuition, time, space, extraControls
       ${tabsHTML(id, [
         { key: 'pseudo', label: 'Pseudocode' },
         { key: 'cpp', label: 'C++ Solution' },
+        { key: 'python', label: 'Python Solution' },
         { key: 'practice', label: 'Practice' }
       ])}
     </div>
@@ -256,6 +257,47 @@ function cppPanel(id, code) {
         <button class="copy-btn" id="copy-${id}">Copy</button>
       </div>
       <pre class="vscode-theme"><code>${highlightCpp(code)}</code></pre>
+    </div>
+  </div>`;
+}
+
+function highlightPython(code) {
+  const tokenRegex = /(#[^\n]*)|("""[\s\S]*?"""|'''[\s\S]*?'''|"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*')|(\b(?:def|class|return|if|elif|else|while|for|break|continue|pass|import|from|as|with|try|except|finally|raise|yield|lambda|and|or|not|in|is|True|False|None|global|nonlocal|assert|del)\b)|(\b(?:print|len|range|int|float|str|list|dict|set|tuple|sorted|reversed|enumerate|zip|map|filter|max|min|sum|abs|any|all|type|isinstance|input|open|append|pop|remove|insert|index|count|sort|reverse|join|split|strip|replace|find|upper|lower|keys|values|items|get|update|add|discard|math|sqrt|log2|pow|inf)\b)|(\b[a-zA-Z_]\w*(?=\s*\())|(\b\d+(?:\.\d+)?\b)|([+\-*/%=<>!&|^~@:,]|\*\*|==|!=|<=|>=|\+=|-=|\*=|\/=|->)/g;
+
+  let result = '';
+  let lastIndex = 0;
+  let match;
+
+  while ((match = tokenRegex.exec(code)) !== null) {
+    if (match.index > lastIndex) {
+      result += escapeHtml(code.slice(lastIndex, match.index));
+    }
+    const [full, comment, str, kw, builtin, func, num, op] = match;
+    if (comment) result += `<span class="syn-comment">${escapeHtml(comment)}</span>`;
+    else if (str) result += `<span class="syn-string">${escapeHtml(str)}</span>`;
+    else if (kw) result += `<span class="syn-kw">${escapeHtml(kw)}</span>`;
+    else if (builtin) result += `<span class="syn-builtin">${escapeHtml(builtin)}</span>`;
+    else if (func) result += `<span class="syn-func">${escapeHtml(func)}</span>`;
+    else if (num) result += `<span class="syn-num">${escapeHtml(num)}</span>`;
+    else if (op) result += `<span class="syn-op">${escapeHtml(op)}</span>`;
+    else result += escapeHtml(full);
+
+    lastIndex = tokenRegex.lastIndex;
+  }
+  if (lastIndex < code.length) {
+    result += escapeHtml(code.slice(lastIndex));
+  }
+  return result;
+}
+
+function pythonPanel(id, code) {
+  return `<div class="tab-panel" id="panel-${id}-python">
+    <div class="code-wrap">
+      <div class="code-header">
+        <span class="code-lang-tag">Python Solution</span>
+        <button class="copy-btn" id="copy-py-${id}">Copy</button>
+      </div>
+      <pre class="vscode-theme"><code>${highlightPython(code)}</code></pre>
     </div>
   </div>`;
 }

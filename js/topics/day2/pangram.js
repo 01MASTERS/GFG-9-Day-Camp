@@ -266,6 +266,24 @@ string missingCharsInPangram(string str) {
     }
     return missing.empty() ? "-1" : missing;
 }`)}
+      ${pythonPanel(this.id,
+`# Pangram Check — O(n) time, O(1) space
+def is_pangram(s):
+    return len(set(c.lower() for c in s if c.isalpha())) == 26
+
+# Bitmask approach
+def is_pangram_bitmask(s):
+    mask = 0
+    for c in s:
+        if c.isalpha():
+            mask |= 1 << (ord(c.lower()) - ord('a'))
+    return mask == (1 << 26) - 1
+
+# Missing characters in pangram
+def missing_chars(s):
+    present = set(c.lower() for c in s if c.isalpha())
+    missing = [chr(i + ord('a')) for i in range(26) if chr(i + ord('a')) not in present]
+    return ''.join(missing) if missing else '-1'`)}
 
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Pangram Checking', slug: 'pangram-checking-1587115620', track: 'strings-fundamental-siddhartha', isBatch: true, company: 'TCS, Infosys, Wipro', hint: 'Scan the string and use a 26-bit bitmask or 26-boolean vector to verify all 26 English letters exist.' },
@@ -277,5 +295,6 @@ string missingCharsInPangram(string str) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

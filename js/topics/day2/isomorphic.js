@@ -297,6 +297,32 @@ bool isIsomorphicLastSeen(string s, string t) {
     }
     return true;
 }`)}
+      ${pythonPanel(this.id,
+`# Isomorphic Strings — Two-dict bijective check O(n)
+def are_isomorphic(s, t):
+    if len(s) != len(t):
+        return False
+    map_st, map_ts = {}, {}
+    for c1, c2 in zip(s, t):
+        if c1 in map_st and map_st[c1] != c2:
+            return False
+        if c2 in map_ts and map_ts[c2] != c1:
+            return False
+        map_st[c1] = c2
+        map_ts[c2] = c1
+    return True
+
+# Last-seen index approach
+def are_isomorphic_idx(s, t):
+    if len(s) != len(t):
+        return False
+    last_s, last_t = {}, {}
+    for i, (c1, c2) in enumerate(zip(s, t)):
+        if last_s.get(c1) != last_t.get(c2):
+            return False
+        last_s[c1] = i
+        last_t[c2] = i
+    return True`)}
 
       ${practicePanel(this.id, [
         { lvl: 'easy', title: 'Isomorphic Strings', slug: 'isomorphic-strings-1587115620', track: 'strings-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Google', hint: 'Maintain two 256-size ASCII lookup arrays to enforce a strict bijective one-to-one character mapping in O(n) time and O(1) space.' },
@@ -307,5 +333,6 @@ bool isIsomorphicLastSeen(string s, string t) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

@@ -288,6 +288,29 @@ void reverseRecursive(vector<int>& arr, int l, int r) {
     swap(arr[l], arr[r]);
     reverseRecursive(arr, l + 1, r - 1);
 }`)}
+      ${pythonPanel(this.id,
+`# Full In-Place Array Reverse (Two Pointers)
+def reverse_array(arr):
+    left, right = 0, len(arr) - 1
+    while left < right:
+        arr[left], arr[right] = arr[right], arr[left]
+        left += 1
+        right -= 1
+
+# Reverse in Groups of K
+def reverse_in_groups(arr, k):
+    n = len(arr)
+    for i in range(0, n, k):
+        left = i
+        right = min(i + k - 1, n - 1)
+        while left < right:
+            arr[left], arr[right] = arr[right], arr[left]
+            left += 1
+            right -= 1
+
+# Pythonic one-liner
+arr = [1, 2, 3, 4, 5]
+arr.reverse()  # or arr[::-1] for new list`)}
 
       ${practicePanel(this.id, [
         { lvl: 'medium', title: 'Reverse Array in Groups of K', slug: 'reverse-array-in-groups0255', track: 'array-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft, Paytm', hint: 'Iterate with step k. Reverse each subsegment from i to min(i+k-1, n-1) with two pointers.' },
@@ -299,5 +322,6 @@ void reverseRecursive(vector<int>& arr, int l, int r) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };

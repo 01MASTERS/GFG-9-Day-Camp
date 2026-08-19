@@ -347,6 +347,25 @@ bool isAnagramSort(string s1, string s2) {
     sort(s2.begin(), s2.end());
     return s1 == s2;
 }`)}
+      ${pythonPanel(this.id,
+`# Anagram Check — Frequency Counting O(n)
+def is_anagram(s1, s2):
+    if len(s1) != len(s2):
+        return False
+    freq = [0] * 26
+    for i in range(len(s1)):
+        freq[ord(s1[i]) - ord('a')] += 1
+        freq[ord(s2[i]) - ord('a')] -= 1
+    return all(f == 0 for f in freq)
+
+# Pythonic (Counter)
+from collections import Counter
+def is_anagram_pythonic(s1, s2):
+    return Counter(s1) == Counter(s2)
+
+# Sorting approach
+def is_anagram_sort(s1, s2):
+    return sorted(s1) == sorted(s2)`)}
 
       ${practicePanel(this.id, [
         { lvl: 'medium', title: 'Check If Two Strings are K-Anagrams', slug: 'check-if-two-strings-are-k-anagrams-or-not', track: 'strings-practice-siddhartha', isBatch: true, company: 'Amazon, Microsoft', hint: 'Count frequency deltas across 26 chars. If characters needing changes is <= k, return true.' },
@@ -358,5 +377,6 @@ bool isAnagramSort(string s1, string s2) {
 
     wireTabs(this.id);
     copyWire('copy-' + this.id, $(`#panel-${this.id}-cpp code`).textContent);
+    copyWire('copy-py-' + this.id, $(`#panel-${this.id}-python code`).textContent);
   }
 };
