@@ -56,7 +56,20 @@ const DAYS = [
       TOPIC_INSERTION_SORT
     ]
   },
-  { id: 'day4', label: 'Day 4 — Two Pointers & Sliding Window', status: 'locked', topics: [] },
+  {
+    id: 'day4',
+    label: 'Day 4 — Sliding Window & Two Pointers',
+    status: 'active',
+    topics: [
+      TOPIC_MAX_SUBARRAY_K,
+      TOPIC_LONGEST_DISTINCT,
+      TOPIC_COUNT_DISTINCT_WINDOW,
+      TOPIC_FRUIT_BASKET,
+      TOPIC_CONTAINER_WATER,
+      TOPIC_SORT_01,
+      TOPIC_TWO_SUM_SORTED
+    ]
+  },
   { id: 'day5', label: 'Day 5 — Strings & Hashing', status: 'locked', topics: [] },
   { id: 'day6', label: 'Day 6 — Linked Lists', status: 'locked', topics: [] },
   { id: 'day7', label: 'Day 7 — Stacks & Queues', status: 'locked', topics: [] },
