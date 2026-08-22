@@ -70,7 +70,20 @@ const DAYS = [
       TOPIC_TWO_SUM_SORTED
     ]
   },
-  { id: 'day5', label: 'Day 5 — Strings & Hashing', status: 'locked', topics: [] },
+  {
+    id: 'day5',
+    label: 'Day 5 — Hashing & Prefix Sum',
+    status: 'active',
+    topics: [
+      TOPIC_PREFIX_SUM,
+      TOPIC_MAX_FREQ_CHAR,
+      TOPIC_TWO_SUM,
+      TOPIC_FIRST_DUPLICATE,
+      TOPIC_SUBARRAY_SUM_K,
+      TOPIC_SUBARRAY_DIV_K,
+      TOPIC_COUNT_NICE_SUBARRAYS
+    ]
+  },
   { id: 'day6', label: 'Day 6 — Linked Lists', status: 'locked', topics: [] },
   { id: 'day7', label: 'Day 7 — Stacks & Queues', status: 'locked', topics: [] },
   { id: 'day8', label: 'Day 8 — Trees I', status: 'locked', topics: [] },
